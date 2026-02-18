@@ -50,6 +50,13 @@ const Experience = () => {
              
              className='absolute left-9 top-0 w-[4px] h-full bg-dark origin-top dark:bg-light md:w-[2px] md:left-[30px] xs:left-[20px]' />
                         <ul className='w-full flex flex-col items-start justify-between ml-4 xs:ml-2'>
+                             <Details 
+                            position="TEST" company="Florida Institute of Technology"
+                            companyLink="https://www.fit.edu/"
+                            time="Jan 2023 - May 2023" address="Melbourne, FL"
+                            work="Collaborated with PhD professors to develop an innovative code-to-requirements conversion model that streamlined the
+                            process, enabling users to go straight from code to requirements, which makes it stand out in the field."
+                            />
                             <Details 
                             position="Project Developer" company="Florida Institute of Technology"
                             companyLink="https://www.fit.edu/"
